@@ -16,6 +16,9 @@ Verify Connectivity:
    ```bash
 ping ...
 ```
+
+###On All Server###
+
 Create Ubuntu User:
    
    ```bash
@@ -40,7 +43,7 @@ Generate SSH Key:
    ```bash
 ssh-keygen -t rsa
 ```
-Copy Key to Slave Servers:
+Copy Key to Slave Servers(main):
 
    ```bash
 ssh-copy-id ubuntu@slave1
