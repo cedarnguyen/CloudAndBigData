@@ -54,6 +54,8 @@ Update SSH Configuration Again:
 ```bash
 sudo nano /etc/ssh/ssh_config
 ```
+### On Master
+
 2. **Install Ansible:**
 
 ```bash
