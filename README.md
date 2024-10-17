@@ -51,12 +51,12 @@ Update SSH Configuration Again:
 ```bash
 sudo nano /etc/ssh/ssh_config
 ```
-2. Install Ansible:
+2. **Install Ansible:**
 
    ```bash
 sudo apt install ansible
 ```
-3. Create Directory Structure:
+3. **Create Directory Structure:**
 
    ```bash
 mkdir ansible
@@ -72,7 +72,7 @@ Test Ansible Connectivity:
    ```bash
 ansible all -m ping
 ```
-4. Create Playbooks Directory:
+4. **Create Playbooks Directory:**
 
    ```bash
 mkdir playbooks
