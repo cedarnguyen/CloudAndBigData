@@ -63,21 +63,25 @@ sudo apt install ansible
 mkdir ansible
 mkdir inventory
 ```
+
 Create Inventory File:
 
    ```bash
 vim ~/ansible/inventory/hosts.ini
 ```
+
 Test Ansible Connectivity:
 
    ```bash
 ansible all -m ping
 ```
+
 4. **Create Playbooks Directory:**
 
    ```bash
 mkdir playbooks
 ```
+
 Create passwdless_su.yaml Playbook
 
 Run the playbook with:
@@ -94,6 +98,7 @@ Run the playbook to install Java:
    ```bash
 ansible-playbook playbook/install_java.yaml
 ```
+
 Install Hadoop & Spark
 Run the playbook to install:
 
@@ -106,6 +111,7 @@ Run the playbook:
    ```bash
 ansible-playbook playbook/change_permission.yaml
 ```
+
 Update .bashrc
 
 Run the playbook:
@@ -113,6 +119,7 @@ Run the playbook:
    ```bash
 ansible-playbook playbook/update_bashrc.yaml
 ```
+
 Configure Hadoop & Spark:
 Run the playbooks:
 
@@ -120,6 +127,7 @@ Run the playbooks:
 ansible-playbook playbook/config_hadoop.yaml
 ansible-playbook playbook/config_sparks.yaml
 ```
+
 Create Start and Stop Scripts
 Create start.sh and stop.sh:
 
