@@ -17,7 +17,7 @@ Verify Connectivity:
 ping ...
 ```
 
-###On All Server###
+### On All Server
 
 Create Ubuntu User:
    
