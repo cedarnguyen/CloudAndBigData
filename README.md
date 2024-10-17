@@ -56,12 +56,6 @@ sudo nano /etc/ssh/ssh_config
 ```
 ### On Master
 
-2. **Install Ansible:**
-
-```bash
-sudo apt install ansible
-```
-
 3. **Create Directory Structure:**
 
 ```bash
