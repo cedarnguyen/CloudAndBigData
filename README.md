@@ -59,7 +59,7 @@ sudo apt install ansible
 
 3. **Create Directory Structure:**
 
-   ```bash
+```bash
 mkdir ansible
 mkdir inventory
 ```
@@ -78,7 +78,7 @@ ansible all -m ping
 
 4. **Create Playbooks Directory:**
 
-   ```bash
+```bash
 mkdir playbooks
 ```
 
